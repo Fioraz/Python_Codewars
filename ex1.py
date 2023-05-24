@@ -1,10 +1,12 @@
+#Highest and Lowest
+
 # Option 1
 def high_and_low(numbers):
     num_list = [int(num) for num in numbers.split(' ')]
     return f"{max(num_list)} {min(num_list)}"
 
 
-# option 2
+# Option 2
 def high_and_low(numbers):
     num_list = list(numbers.split(' '))
     int_lst = []
